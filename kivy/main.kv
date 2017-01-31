@@ -1,0 +1,26 @@
+<MenuScreen>:	
+	name: 'main'
+    size: root.size
+    Image:
+		id: background
+		source: "res/dog_clothes.jpg"
+		allow_stretch: True
+		keep_ratio: False
+	Image:
+		id: title
+		source: "res/title.png"
+		pos_hint: {'top': 1.3}
+	Label:
+		id: printing_area
+		color: 0,1,0,1
+		text: ''
+		font_size: '20sp'
+		pos_hint: {'x':0, 'y':-0.4}
+	ImageButton:
+		id: work
+		source: "res/work.png"
+		on_release: root.make_request('work')
+		size_hint: 0.3,0.15 
+		pos_hint: {'x': .2, 'y': .4}
+		allow_stretch: False
+		keep_ratio: True

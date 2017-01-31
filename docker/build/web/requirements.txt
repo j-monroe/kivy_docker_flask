@@ -1,0 +1,17 @@
+Flask==0.11.1
+Flask-Jsonpify==1.5.0
+Flask-Login==0.4.0
+Flask-Mail==0.9.1
+functools32==3.2.3.post2
+futures==3.0.3
+itsdangerous==0.24
+Jinja2==2.8
+jmespath==0.8.0
+jsonpatch==1.2
+jsonpointer==1.9
+jsonschema==2.5.1
+kitchen==1.1.1
+requests==2.11.1
+urllib3==1.10.2
+virtualenv==13.1.2
+websocket-client==0.40.0

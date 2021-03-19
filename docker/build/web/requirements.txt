@@ -5,7 +5,7 @@ Flask-Mail==0.9.1
 functools32==3.2.3.post2
 futures==3.0.3
 itsdangerous==0.24
-Jinja2==2.8
+Jinja2==2.11.3
 jmespath==0.8.0
 jsonpatch==1.2
 jsonpointer==1.9

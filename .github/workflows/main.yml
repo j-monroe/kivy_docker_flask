@@ -13,4 +13,5 @@ jobs:
         env: 
           SPECIAL_KEY: ${{ secrets.FOURK_KEY2 }} 
         run: |
+          pip install requests 
           python request.py

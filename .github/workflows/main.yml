@@ -1,0 +1,16 @@
+on: push
+
+jobs:
+  my-job:
+    name: My Job
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v3
+        with:
+          python-version: '2.7'       
+      - name: get_val
+        env: 
+          SPECIAL_KEY: ${{ secrets.FOURK_KEY2 }} 
+        run: |
+          echo "$SPECIAL_KEY"

@@ -13,4 +13,4 @@ jobs:
         env: 
           SPECIAL_KEY: ${{ secrets.FOURK_KEY2 }} 
         run: |
-          echo "$SPECIAL_KEY"
+          python request.py
